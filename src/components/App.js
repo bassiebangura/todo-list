@@ -1,11 +1,18 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./TodoListItem";
+import "./App.css";
+import TodoListItem from "./TodoListItem";
 
 function App() {
   return (
-   <div>
-     <h1>Hello To My todo-list App</h1>
-   </div>
+    <div>
+      <TodoListItem />
+      <TodoListItem />
+      <TodoListItem />
+      <TodoListItem />
+      <TodoListItem />
+      <TodoListItem />
+    </div>
   );
 }
 
