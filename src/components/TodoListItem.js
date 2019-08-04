@@ -1,11 +1,12 @@
 import React from "react";
 
 
-function TodoListItem() {
+function TodoListItem({text}) {
+   
   return (
-    <div>
+    <div className="todoList__item">
       <input type="checkbox" />
-      <p>Placeholder text here</p>
+      <p>{text}</p>
     </div>
   );
 }
